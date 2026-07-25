@@ -12,7 +12,7 @@ The project also evaluated **SMOTE (Synthetic Minority Over-sampling Technique)*
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Data preprocessing and cleaning
 - Exploratory Data Analysis (EDA)
@@ -41,7 +41,7 @@ The project also evaluated **SMOTE (Synthetic Minority Over-sampling Technique)*
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 The dataset contains anonymized credit card transactions with the following features:
 
@@ -53,10 +53,11 @@ The dataset contains anonymized credit card transactions with the following feat
   - 1 → Fraudulent Transaction
 
 The dataset is highly imbalanced, making fraud detection a challenging classification problem.
+Note- dataset.csv was not added to repository due to large size.
 
 ---
 
-## 📊 Models Used
+##  Models Used
 
 ### Random Forest
 
@@ -122,13 +123,11 @@ This experiment demonstrates that oversampling techniques should be validated ra
 
 ### Conclusion
 
-Although SMOTE is a widely used technique for handling imbalanced datasets, experimental evaluation showed that it did not improve model performance for this dataset.
-
-The original class-weighting strategy produced superior results and was selected for the final model.
+The original class-weighting strategy produced superior results than smote+Xgboost and random forest; hence was selected for the final model.
 
 ---
 
-# 🌐 Streamlit Application
+#  Streamlit Application
 
 The application allows users to enter transaction details and predicts whether the transaction is:
 
